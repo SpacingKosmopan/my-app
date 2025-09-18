@@ -6,6 +6,7 @@ export const Task = (props) => {
         {props.completed ? "Completed" : "Complete"}
       </button>
       <button onClick={() => props.deleteTask(props.id)}>X</button>
+      <button>Create Reminder</button>
     </div>
   );
 };
